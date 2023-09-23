@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 8px 0;
+    background-color: #111111;
+    color: #ecf0f1;
+    background-image: url(./images/header-bg.png);
+    background-position-y: bottom;
+    background-position-x: 75%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 90px;
+    
+}
+
+.container nav li {
+    display: inline;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif, cursive;
+    
+}
+
+.container nav li a{
+    color: #ecf0f1;
+    text-decoration: none;  
+    margin-left: 10px;
+}
+
+.container nav li a:hover{
+    background-image: url(./images/bloodsplatter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain ;
+}
+
+.logo img{
+    height: 90px;
+}
+
+#presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/Project-Zomboid.png);
+    text-align: center;
+
+
+}
+
+#presentation .container{
+    margin: 100px 0;
+}
+
+.container h1{
+    font-size: 100px;
+    color: #ecf0f1;
+    font-family: 'Bebas Neue', sans-serif, cursive;
+    margin-top: 100px;
+    background-image: url(./images/texture.jpg);
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#about{
+    /*background-image: url(./images/bg3.jpg); */
+    /*background-size:cover;*/
+    background-color: #121618;
+    color: #ecf0f1;
+    height: auto;
+    padding: 30px 0;
+}
+
+.game-about{
+    width: 70%;
+}
+
+.game-about h2{
+    font-size: 42px;
+    padding: 16px 0;
+    background-image: url(./images/bloodsplatter.png);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    border-bottom: 1px solid #cd003b;
+}
+
+.game-about p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    text-indent: 5%;
+    
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding: 15% 50px 0 0;
+}
+
+.steam-bt {
+    height: 130px;
+    width:  300px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    background-image: url(images/button.png);
+    text-align: center;
+    color: #ecf0f1;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 15%;
+}
+
+.steam-bt:hover{
+    background-image: url(./images/button-hover2.png);
+    color: #cecece;
+}
+
+.forum-bt:hover{
+    background-image: url(./images/button-hover2.png);
+    color: #cecece;
+}
+
+.forum-bt{
+    height: 130px;
+    width:  300px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    background-image: url(images/button.png);
+    color: #ecf0f1;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 15%;
+}
+
+#about .container {
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#about .container h2{
+    font-family: 'Bebas Neue', sans-serif, cursive;
+    margin: 15px 0;
+}
+
+.form-request{
+    margin: 50px 100px 0 ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-request h3{
+    border-top: 1px solid #cd003b;
+    padding: 12px 0;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif, cursive;
+    font-size: 32px;
+    background-image: url(./images/bloodline.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180px ;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input,
+form textarea,
+form button {
+    display: flex;
+    width:  320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    justify-content: center;
+}
+
+form textarea{
+    resize: none;
+    height: 120px;
+}
+
+form button{
+    background-color: #a81c1c;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    background-image: url(./images/button.png);
+    border-radius: 3px;
+    font-family: 'Bebas Neue', sans-serif, cursive;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-image:url(./images/button-hover2.png);
+}
+
+footer .container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px; 
+}
+
+footer li a img{
+    height: 35px;
+    display: inline;
+}
+
+footer{
+    background-color: #111111;
+    background-image: url(./images/bg-footer.png);
+    background-position-y: bottom;
+    background-position-x: 18%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.social-links li{
+    display: inline;
+}
+
+footer .container p{
+    color: #ecf0f1;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+footer .container li{
+    padding: 10px;
+}
+
+footer .container a{
+    text-decoration: none;
+}
+
+body, input, textarea {
+    font-family: 'Nunito Sans', sans-serif;
+}
