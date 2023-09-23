@@ -54,8 +54,6 @@ header .container{
     align-items: center;
     background-image: url(./images/Project-Zomboid.png);
     text-align: center;
-
-
 }
 
 #presentation .container{
@@ -74,8 +72,6 @@ header .container{
 }
 
 #about{
-    /*background-image: url(./images/bg3.jpg); */
-    /*background-size:cover;*/
     background-color: #121618;
     color: #ecf0f1;
     height: auto;
